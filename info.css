@@ -1,0 +1,66 @@
+body{
+    background-color:rgb(144, 188, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.big{
+    font-size: 40px;
+}
+
+.medium{
+    font-size: 25px;
+}
+
+.center{
+    text-align: center;
+    margin: 0 auto;
+    display:block;
+}
+
+/* doesn't work great if screen is too small */
+.grids{
+    display: grid;
+    /* grid-gap: 10px; */
+    grid-template-columns:auto auto auto auto;
+    /* justify-items:center; */
+}
+
+.grid-item{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    /* border-radius: 6px; */
+}
+/* add hover */
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 6px;
+   
+  }
+  /*NOTE THIS SHIFTED THE LEFTMOST POINT TO THE CENTER -- WANT CENTER SHIFTED TO CENTER */
+  .horiz-center {
+    position: absolute;
+    left: 50%;
+    /* -ms-transform: translateX(+50%);
+    transform: translateX(+50%); */
+    /* margin-left: auto;*/
+  }
+
+  .black{
+      color: black;
+  }
